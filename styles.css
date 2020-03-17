@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  cursor: default;
+  text-decoration: none !important;
+}
+
+/* colors */
+.bg-mint-green {
+  background-color: #5dd9c7;
+}
+
+.bg-light-green {
+  background-color: #acfcd9;
+}
+
+.bg-light-purple {
+  background-color: #b084cc;
+}
+
+body,
+html {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+    cursor: pointer;
+}
+
+section {
+  padding: 5% 20%;
+  margin: 0;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+
+@media (max-width: 900px) {
+  main {
+    padding: 0;
+  }
+  header h1 {
+    font-size: 1.5em;
+  }
+  main section h3 {
+    font-size: 1.25em;
+  }
+}
